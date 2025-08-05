@@ -1,0 +1,45 @@
+# Network Scanner - Terminal Version Dependencies
+
+# External Dependencies (need installation):
+# Core networking library for ARP scanning and packet manipulation
+scapy>=2.4.5
+
+# HTTP requests for vendor lookup API
+requests>=2.25.1
+
+# Built-in Python Modules (included with Python):
+# Command line argument parsing
+argparse
+
+# Threading and concurrency
+threading
+
+# Time operations
+time
+
+# System operations
+os
+sys
+
+# Network operations
+socket
+
+# Regular expressions
+re
+
+# Random number generation
+random
+
+# Type hints
+typing
+
+# System Requirements:
+# - Python 3.6 or higher
+# - Network interface access (may require admin privileges)
+# - Internet connection (for vendor lookup)
+
+# Installation:
+# pip install -r requirements_terminal.txt
+#
+# Note: Built-in modules (argparse, threading, time, etc.) are included
+# with Python and don't need separate installation. 
